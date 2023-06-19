@@ -38,7 +38,7 @@
             <h2 class="element__title">Карачаевск</h2>
             <button
               type="button"
-              class="element__like element__like-active"
+              class="element__like element__like_active"
             ></button>
           </div>
         </article>
@@ -46,10 +46,7 @@
           <img src="./images/palm.jpg" alt="Пальма" class="element__item" />
           <div class="element__container">
             <h2 class="element__title">Пальма</h2>
-            <button
-              type="button"
-              class="element__like element__like-active"
-            ></button>
+            <button type="button" class="element__like"></button>
           </div>
         </article>
         <article class="element">
@@ -60,10 +57,7 @@
           />
           <div class="element__container">
             <h2 class="element__title">Домбай</h2>
-            <button
-              type="button"
-              class="element__like element__like-active"
-            ></button>
+            <button type="button" class="element__like"></button>
           </div>
         </article>
         <article class="element">
@@ -74,10 +68,7 @@
           />
           <div class="element__container">
             <h2 class="element__title">Карачаево-Черкесия</h2>
-            <button
-              type="button"
-              class="element__lik element__like-activee"
-            ></button>
+            <button type="button" class="element__like"></button>
           </div>
         </article>
         <article class="element">
@@ -88,10 +79,7 @@
           />
           <div class="element__container">
             <h2 class="element__title">Бабочка</h2>
-            <button
-              type="button"
-              class="element__like element__like-active"
-            ></button>
+            <button type="button" class="element__like"></button>
           </div>
         </article>
         <article class="element">
@@ -102,10 +90,7 @@
           />
           <div class="element__container">
             <h2 class="element__title">Машина</h2>
-            <button
-              type="button"
-              class="element__like element__like-active"
-            ></button>
+            <button type="button" class="element__like"></button>
           </div>
         </article>
       </section>
@@ -117,20 +102,16 @@
       <div class="popup__container">
         <h2 class="popup__title">Редактировать профиль</h2>
         <form name="popup" class="popup__form">
-          <label class="popup__input-field">
-            <input
-              type="text"
-              class="popup__input popup__input_type_username"
-              name="user_name"
-            />
-          </label>
-          <label class="popup__input-field">
-            <input
-              type="text"
-              class="popup__input popup__input_type_userstatus"
-              name="user_status"
-            />
-          </label>
+          <input
+            type="text"
+            class="popup__input popup__input_type_username"
+            name="user_name"
+          />
+          <input
+            type="text"
+            class="popup__input popup__input_type_userstatus"
+            name="user_status"
+          />
           <button type="submit" class="popup__save-button">Сохранить</button>
         </form>
         <button type="button" class="popup__close-button"></button>
