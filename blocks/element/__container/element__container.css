@@ -1,0 +1,10 @@
+.element__container {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  padding: 25px 15px 31px 21px;
+  justify-content: space-between;
+  column-gap: 25px;
+  border-radius: 0 0 10px 10px;
+}

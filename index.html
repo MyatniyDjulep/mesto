@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="root">
+    <header class="header">
+      <img src="./images/logo.svg" alt="Логотип" class="header__logo" />
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img
+          src="./images/kysto.jpg"
+          alt="Фотография Жак-Ив Кусто"
+          class="profile__image"
+        />
+        <div class="profile__info">
+          <div class="profile__flex-container">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <button type="button" class="profile__edit-button"></button>
+          </div>
+          <p class="profile__status">Исследователь океана</p>
+        </div>
+        <button type="button" class="profile__add-button"></button>
+      </section>
+      <section class="elements" aria-label="Фотографии пейзажей">
+        <article class="element">
+          <img
+            src="./images/dombay.png"
+            alt="Фотография вида из окна поезда"
+            class="element__item"
+          />
+          <div class="element__container">
+            <h2 class="element__title">Карачаевск</h2>
+            <button type="button" class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img src="./images/palm.jpg" alt="Пальма" class="element__item" />
+          <div class="element__container">
+            <h2 class="element__title">Пальма</h2>
+            <button type="button" class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img
+            src="./images/elbrus.png"
+            alt="Фотография вида из окна поезда"
+            class="element__item"
+          />
+          <div class="element__container">
+            <h2 class="element__title">Домбай</h2>
+            <button type="button" class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img
+            src="./images/karachaevsk.jpg"
+            alt="Фотография Карачаево-Черкесии"
+            class="element__item"
+          />
+          <div class="element__container">
+            <h2 class="element__title">Карачаево-Черкесия</h2>
+            <button type="button" class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img
+            src="./images/butterfly.jpg"
+            alt="Фотография бабочки"
+            class="element__item"
+          />
+          <div class="element__container">
+            <h2 class="element__title">Бабочка</h2>
+            <button type="button" class="element__like"></button>
+          </div>
+        </article>
+        <article class="element">
+          <img
+            src="./images/car.jpg"
+            alt="Фотография Машины"
+            class="element__item"
+          />
+          <div class="element__container">
+            <h2 class="element__title">Машина</h2>
+            <button
+              type="button"
+              class="element__like element__like-active"
+            ></button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">© 2023 Mesto Russia</p>
+    </footer>
+    <section class="popup">
+      <div class="popup__container">
+        <h3 class="popup__title">Редактировать профиль</h3>
+        <form name="popup" class="popup__form">
+          <label class="popup__input-field">
+            <input
+              type="text"
+              class="popup__input popup__input_type_username"
+              name="user_name"
+            />
+          </label>
+          <label class="popup__input-field">
+            <input
+              type="text"
+              class="popup__input popup__input_type_userstatus"
+              name="user_status"
+            />
+          </label>
+          <button type="submit" class="popup__save-button">Сохранить</button>
+        </form>
+        <button type="button" class="popup__close-button"></button>
+      </div>
+    </section>
+    <script src="./pages/index.js"></script>
+  </body>
+</html>

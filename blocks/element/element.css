@@ -1,0 +1,5 @@
+@media screen and (max-width: 977px) {
+  .element {
+    min-width: 200px;
+  }
+}
