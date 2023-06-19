@@ -13,11 +13,11 @@ function openPopup() {
   profileNameInput.value = profileName.textContent;
   profileStatusInput.value = profileStatus.textContent;
 
-  popup.classList.add("popup__opened");
+  popup.classList.add("popup_opened");
 }
 
 function closePopup() {
-  popup.classList.remove("popup__opened");
+  popup.classList.remove("popup_opened");
 }
 
 function saveProfile(event) {
@@ -30,7 +30,7 @@ function saveProfile(event) {
 
 document.addEventListener("click", (e) => {
   if (e.target === popup) {
-    popup.classList.remove("popup__opened");
+    popup.classList.remove("popup_opened");
   }
 });
 

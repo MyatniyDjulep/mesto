@@ -1,19 +1,10 @@
-.header {
-  max-width: 880px;
-  margin: 0 auto;
-  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
-  box-sizing: border-box;
-  padding: 45px 0 41px;
-}
-
-@media screen and (max-width: 977px) {
-  .header {
-    padding-left: 27px;
-  }
+.header__logo {
+  max-width: 142px;
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 519px) {
-  .header {
-    padding: 28px 27px 28px;
+  .header__logo {
+    max-width: 104px;
   }
 }
